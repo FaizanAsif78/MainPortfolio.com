@@ -1,0 +1,683 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #053460;
+}
+
+/********************************** start home CSS********************************* */
+a{
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+    transition: 0.8s ease-out;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: #053460;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.navbar{
+    background-color: #79F1F7;
+}
+
+.homebar{
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 500px;
+    height: 60px;
+    position: fixed;
+    top: 550px;
+    left: 400px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.homebar i {
+    text-align: center;
+    color: white;
+    transition: 0.8s ease;
+    padding: 10px 20px 0px 20px;
+}
+
+.homebar i:hover {
+    background-color: #053460;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.main nav {
+    background-color: #79F1F7;
+}
+
+.home1 {
+    height: 600px;
+    padding-top: 400px;
+}
+
+.home1 .socialicon li {
+    list-style: none;
+}
+
+.home1 .socialicon i {
+    color: #79F1F7;
+    font-size: 20px;
+
+}
+
+.home2 {
+    padding-top: 30px;
+    height: 600px;
+}
+
+.home2 img {
+    width: 890px;
+    height: 400px;
+}
+
+.home2 h6 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.home2 h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.home2 P {
+    color: white;
+    text-transform: uppercase;
+}
+
+.home2 .btn2 {
+    background-color: #79F1F7;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.home2 .btn2:hover {
+    background-color: transparent;
+    font-weight: 500;
+    border: 1px solid #79F1F7;
+    color: #79F1F7;
+    
+}
+
+.home3 {
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 50px;
+
+}
+
+.home3 h6 {
+    color: #79F1F7;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+/********************************** End home CSS********************************* */
+/********************************** Start About CSS********************************* */
+.aboutss{
+    padding-left: 70px;
+}
+.about-section{
+    margin-top: 80px;
+}
+.row1{
+    text-align: center;
+}
+.row1 h6{
+    color: white;
+    text-transform: capitalize;
+}
+.row1 h3{
+    color: #79F1F7;
+    text-transform: capitalize;
+}
+.aboutpic img{
+    width: 900px;
+    height: 500px;
+}
+.small-about{
+    margin-top: 90px;
+}
+
+.about1{
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: #3277b8;
+}
+.about1:hover{
+    border: 1px solid grey;
+    background-color: transparent;
+}
+.about1 i{
+color: #79F1F7;
+font-size:30px ;
+}
+.about1 h5{
+color: white;
+text-transform: capitalize;
+}
+.about1 p{
+color: rgb(190, 190, 190);
+text-transform: capitalize;
+}
+.aboutp{
+    color: rgb(225, 223, 223);
+    margin-top: 20px;
+}
+.aboutbtn{
+    background-color:#79F1F7 ;
+    transition: 0.8s ease;
+}
+.aboutbtn:hover{
+    background-color:transparent ;
+    border: 1px solid #79F1F7;
+    color:#79F1F7;
+}
+/********************************** End About CSS********************************* */
+/********************************** Start Experience CSS********************************* */
+
+.exprow1{
+    text-align: center;
+    margin-top: 150px;
+}
+.exprow1 h6{
+    color: white;
+    text-transform: capitalize;
+}
+.exprow1 h3{
+    color:#79F1F7;
+    text-transform: capitalize;
+}
+.exprow2{
+    margin-top: 70px;
+    padding-left: 130px;
+}
+.expsec1{
+    background-color: rgb(50, 119, 184,0.4);
+    margin-right: 30px;
+    border-radius: 40px;
+    padding: 30px;
+    transition: 0.9s ease;
+}
+.expsec1 h4{
+    color: #79F1F7;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.expsec2{
+    background-color: rgb(50, 119, 184,0.4);
+    border-radius: 10px;
+    
+}
+.expsec1:hover{
+    background-color: transparent;
+    border: 1px solid grey;
+}
+.expsec2 h4{
+    color: #79F1F7;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.extag{
+    text-align: right;
+    color:#79F1F7 ;
+    margin-top: 10px;
+}
+.exphead h6{
+color: white;
+}
+.exphead p{
+color: rgb(215, 215, 215);
+}
+.exprow3{
+    margin-top: 50px;
+}
+
+/********************************** End Experience CSS********************************* */
+/********************************** Start Services CSS********************************* */
+.sersec{
+    margin-top: 180px;
+    text-align: center;
+    margin-left: -240px;
+    margin-bottom: 20px;
+    
+}
+.servsecs h6{
+    margin-top: 70px;
+    
+    text-align: center;
+   color: white;
+   text-transform: capitalize;
+    
+}
+.servsecs h3{
+    
+    text-align: center;
+   color: #79F1F7;
+   text-transform: capitalize;
+   margin-bottom: 70px;
+}
+
+.serveicesection{
+    margin-top: 60px;
+}
+.servess {
+    display: flex;
+    justify-content: space-around;
+}
+.servide1{
+    background-color: rgb(50, 119, 184,0.4);
+    margin: 0px 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #66a4a7;
+    transition: 0.8s ease;
+
+}
+.servide1:hover{
+    background-color: transparent;
+
+}
+
+.innerserveice{
+    text-align: center;
+    background-color: #79F1F7;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.innerserveice h5{
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #053460;
+}
+.sertext{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.sertext p{
+    margin-bottom: 10px;
+    color: white;
+    
+}
+.sertext i{
+    color: #79F1F7;
+    
+}
+
+/********************************** End Services CSS********************************* */
+/********************************** Start Portfolio CSS********************************* */
+
+.portfoliosec{
+    text-align: center;
+    margin-top: 100px;
+}
+.portfoliosec h6{
+    color: white;
+    margin-top: 70px;
+
+}
+.portfoliosec h3{
+    color: #79F1F7;
+    margin-bottom: 70px;
+}
+.portsec1{
+    padding-left: 220px;
+}
+.innerport{
+    background-color: #174F84;
+     margin-right: 20px;
+     border-radius: 30px;
+     padding: 15px 15px;
+     transition: 0.8s ease;
+     margin-bottom: 20px;
+}
+
+.innerport:hover{
+    background-color: transparent;
+    border: 1px solid #79F1F7 ;
+}
+.innerport img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+.innerport h6{
+    margin: 30px 0px;
+    text-align: justify;
+    color: white;
+    text-transform: capitalize;
+
+}
+.innerport .btns{
+    text-transform: capitalize;
+
+}
+.innerport .btns1{
+    background-color: #79F1F7;
+    text-transform: capitalize;
+}
+.innerport .btns1:hover{
+    background-color: transparent;
+    border: 1px solid #79F1F7;
+    color: #79F1F7;
+
+}
+/********************************** End Portfolio CSS********************************* */
+/********************************** Start Testimonial CSS********************************* */
+
+.testimonailsec{
+    text-align: center;
+    margin-top: 100px;
+}
+.testimonailsec h6{
+    color: white;
+    text-transform: capitalize;
+}
+.testimonailsec h3{
+    text-transform:capitalize;
+    color: #79F1F7;
+}
+
+.swiper {
+    
+    margin-top: 40px;
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 20%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+  .testmo1{
+    background-color: #174F84;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .testmo1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:30px 0px;
+  }
+  .testmo1 h6{
+    color: white;
+    text-transform: capitalize;
+  }
+  .testmo1 p{
+    color: rgb(203, 203, 203);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+/********************************** End Testimonial CSS********************************* */
+/********************************** Start Contact CSS********************************* */
+.cantacthead{
+    text-align: center;
+    margin-top: 100px;
+}
+.cantacthead h6{
+    color: white;
+    text-transform: capitalize;
+}
+.cantacthead h3{
+   color: #79F1F7;
+}
+.contact1{
+    padding: 20px;
+}
+.contactsestion{
+    margin-left: 190px;
+    margin-top: 100px;
+}
+.cantactbox{
+    text-align: center;
+    padding: 20px;
+    background-color: #174F84;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s ease;
+}
+.cantactbox:hover{
+   background-color: transparent;
+   border: 1px solid #79F1F7;
+}
+.cantactbox i{
+    color: white;
+    font-size: 30px;
+}
+.cantactbox h6{
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+.cantactbox p{
+    color: rgb(209, 208, 208);
+}
+.cantactbox a{
+    color:#79F1F7;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.contactform{
+    padding-left: 90px;
+}
+.contactform input{
+
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #79F1F7;
+    outline: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.contactform textarea{
+    color: white;
+    height: 110px;
+    background-color: transparent;
+    border: 1px solid #79F1F7;
+    outline: none;
+}
+.contactform{
+    margin-top: 50px;
+}
+/********************************** End Contact CSS********************************* */
+/********************************** Start Footer CSS********************************* */
+.footer{
+    background-color:#79F1F7;
+    padding: 0px 30px;
+}
+.footer1 h1{
+    text-align: center;
+    color:#053460;
+
+}
+.footer1 h1{
+    text-align: center;
+    color:#053460;
+
+}
+.footer2{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer2 li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+}
+.footer2 li i{
+    
+    color: #053460;
+    font-size: 30px;
+}
+.footer3 p{
+text-align: center;
+text-transform: capitalize;
+}
+/********************************** End Footer CSS********************************* */
+
+
+/*
+**********************************
+**********************************
+                    Website Code Responsiveness  start
+**********************************
+**********************************           
+*/
+
+
+@media (max-width:992px) {
+    .navbar{
+        display: block;
+    }
+    .home1{
+        display: none;
+    }
+    .home3{
+        display: none;
+    }
+    .homebar{
+        display: none;
+        
+    }
+    .aboutpic img{
+        display: none;
+    }
+    .aboutpic{
+        display: none;
+    }
+    .home2 img{
+        /* margin-left: 4000px; */
+        display: flex;
+
+        justify-content: space-around;
+        
+    }
+    .aboutss{
+
+        /* padding-left: 0px; */
+        padding: 0px;
+    }
+    .small-about{
+        padding: 0px 240px;
+    }
+    .about1{
+        margin-bottom: 20px;
+    }
+    .aboutp{
+        font-size: 10px;
+    }
+    .exprow2{
+        padding: 0px 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .expsec1{
+        margin-bottom: 20px;
+    }
+    .serveicesection{
+        padding: 0px;
+    }
+    .servess{
+        padding:0px 210px;
+    }
+    .servide1{
+        margin-bottom: 20px;
+    }
+    .portsec1{
+        margin-top: 90px;
+        padding: 0px;
+        justify-content: center;
+    }
+    .innerport{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .contactform{
+        margin: 0px;
+        padding: 0px;
+    }
+    .contactsestion{
+        margin: 100px;
+    }
+}
+
+@media (max-width:767px) {
+    .small-about{
+        padding: 0px 150px;
+    }
+    .exprow2{
+        padding:0px 95px;
+    }
+    .servess{
+        padding:0px 150px;
+    }
+    .portsec1{
+        padding: 0px 150px;
+    }
+    .swiper{
+        height: 10%;
+        overflow: auto;
+    }
+    .testmo1 p{
+        margin-bottom: -160px;
+    }
+}
+@media (max-width:576px){
+    .exprow2 {
+padding: 0px 50px;
+    }
+    .servess {
+padding: 0px 100px;
+    }
+    .portsec1{
+        padding: 0px 60px;
+    } 
+    .contact1{
+        padding: 0px;
+    }
+}
+/*
+**********************************
+**********************************
+                    Website Code Responsiveness  Eend
+**********************************
+**********************************           
+*/
+
+
+
+
+
+
+
